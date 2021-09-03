@@ -13,6 +13,12 @@
 		5E27C31026DF860B008CFCB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E27C30E26DF860B008CFCB2 /* Main.storyboard */; };
 		5E27C31226DF860F008CFCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E27C31126DF860F008CFCB2 /* Assets.xcassets */; };
 		5E27C31526DF860F008CFCB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E27C31326DF860F008CFCB2 /* LaunchScreen.storyboard */; };
+		5E27C31E26DF873C008CFCB2 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E27C31D26DF873C008CFCB2 /* movies.json */; };
+		5E27C32226E05ECA008CFCB2 /* ReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27C32126E05ECA008CFCB2 /* ReportTableViewController.swift */; };
+		5E27C32426E068E6008CFCB2 /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27C32326E068E6008CFCB2 /* ReportTableViewCell.swift */; };
+		5E27C32826E07496008CFCB2 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27C32726E07496008CFCB2 /* ReportViewController.swift */; };
+		5E27C32B26E0F07A008CFCB2 /* ReportLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E27C32926E0F079008CFCB2 /* ReportLib.xcdatamodeld */; };
+		5E27C32D26E156DB008CFCB2 /* UIViewController+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27C32C26E156DB008CFCB2 /* UIViewController+Context.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		5E27C31126DF860F008CFCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E27C31426DF860F008CFCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E27C31626DF860F008CFCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E27C31D26DF873C008CFCB2 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		5E27C32126E05ECA008CFCB2 /* ReportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewController.swift; sourceTree = "<group>"; };
+		5E27C32326E068E6008CFCB2 /* ReportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
+		5E27C32726E07496008CFCB2 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		5E27C32A26E0F07A008CFCB2 /* ReportLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReportLib.xcdatamodel; sourceTree = "<group>"; };
+		5E27C32C26E156DB008CFCB2 /* UIViewController+Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Context.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		5E27C30726DF860B008CFCB2 /* ReportApp */ = {
 			isa = PBXGroup;
 			children = (
+				5E27C31C26DF86F3008CFCB2 /* Files */,
 				5E27C30826DF860B008CFCB2 /* AppDelegate.swift */,
 				5E27C30A26DF860B008CFCB2 /* SceneDelegate.swift */,
 				5E27C30C26DF860B008CFCB2 /* ViewController.swift */,
@@ -63,8 +76,21 @@
 				5E27C31126DF860F008CFCB2 /* Assets.xcassets */,
 				5E27C31326DF860F008CFCB2 /* LaunchScreen.storyboard */,
 				5E27C31626DF860F008CFCB2 /* Info.plist */,
+				5E27C32126E05ECA008CFCB2 /* ReportTableViewController.swift */,
+				5E27C32326E068E6008CFCB2 /* ReportTableViewCell.swift */,
+				5E27C32726E07496008CFCB2 /* ReportViewController.swift */,
+				5E27C32926E0F079008CFCB2 /* ReportLib.xcdatamodeld */,
+				5E27C32C26E156DB008CFCB2 /* UIViewController+Context.swift */,
 			);
 			path = ReportApp;
+			sourceTree = "<group>";
+		};
+		5E27C31C26DF86F3008CFCB2 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E27C31D26DF873C008CFCB2 /* movies.json */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +152,7 @@
 			files = (
 				5E27C31526DF860F008CFCB2 /* LaunchScreen.storyboard in Resources */,
 				5E27C31226DF860F008CFCB2 /* Assets.xcassets in Resources */,
+				5E27C31E26DF873C008CFCB2 /* movies.json in Resources */,
 				5E27C31026DF860B008CFCB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E27C32826E07496008CFCB2 /* ReportViewController.swift in Sources */,
 				5E27C30D26DF860B008CFCB2 /* ViewController.swift in Sources */,
+				5E27C32226E05ECA008CFCB2 /* ReportTableViewController.swift in Sources */,
 				5E27C30926DF860B008CFCB2 /* AppDelegate.swift in Sources */,
+				5E27C32B26E0F07A008CFCB2 /* ReportLib.xcdatamodeld in Sources */,
+				5E27C32426E068E6008CFCB2 /* ReportTableViewCell.swift in Sources */,
+				5E27C32D26E156DB008CFCB2 /* UIViewController+Context.swift in Sources */,
 				5E27C30B26DF860B008CFCB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +373,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5E27C32926E0F079008CFCB2 /* ReportLib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E27C32A26E0F07A008CFCB2 /* ReportLib.xcdatamodel */,
+			);
+			currentVersion = 5E27C32A26E0F07A008CFCB2 /* ReportLib.xcdatamodel */;
+			path = ReportLib.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5E27C2FD26DF860A008CFCB2 /* Project object */;
 }
